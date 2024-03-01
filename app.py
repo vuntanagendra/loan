@@ -7,7 +7,7 @@ import joblib
 
 model= joblib.load('model_svm.joblip')
 
-st.title('Can Take A Loan OR Not:bank:')
+st.title('Loan Approval Predicter:bank:')
 
 Gender= st.selectbox('Gender',('Male','Female'))
 Married= st.selectbox('Married',('No','Yes'))
